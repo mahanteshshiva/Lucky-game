@@ -1,0 +1,50 @@
+.container{
+    padding:0;
+    height:90%;
+    width:90%;
+    margin: auto;
+    display:grid;
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 10px;
+    text-align: center;
+vertical-align: middle;
+line-height: 150px;
+    
+}
+
+
+.item{
+    background: red;
+    color:transparent;
+    font-size:20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+
+}
+.item >span{
+    display:none;
+}
+.item1, .item7,.item13, .item19{
+    background: yellowgreen;
+}
+.item2, .item8,.item14, .item20{
+    background: royalblue;
+}
+.item3, .item9, .item15, .item21{
+    background: goldenrod;
+}
+.item4, .item10, .item16, .item22{
+    background: midnightblue;
+}
+.item5, .item11, .item17, .item23{
+    background: chartreuse;
+}
+.item62 .item12, .item18, .item24{
+    background: brown;
+}
+
+/* By default font colro transparent, to overide on over of this div */
+
+.item:hover{
+    color:white;
+}
