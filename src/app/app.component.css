@@ -1,3 +1,13 @@
+.header{
+    text-align:center;
+    font-size: 30px;
+    color: white;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-image: linear-gradient(to right, red , blue);
+    font-family: cursive;
+
+}
 .container{
     padding:0;
     height:90%;
@@ -18,28 +28,29 @@ line-height: 150px;
     background: red;
     color:transparent;
     font-size:20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-shadow: 0 10px 6px -6px #777;
 
 }
 .item >span{
     display:none;
 }
-.item1, .item7,.item13, .item19{
-    background: yellowgreen;
+.item1, .item8,.item17, .item36, .item25, .item24{
+background: rgb(212, 199, 14);
 }
-.item2, .item8,.item14, .item20{
+.item18, .item7,.item14, .item10, .item29, .item32{
     background: royalblue;
 }
-.item3, .item9, .item15, .item21{
+.item22, .item9, .item19, .item12, .item4, .item33{
     background: goldenrod;
 }
-.item4, .item10, .item16, .item22{
+.item27, .item20, .item11, .item3, .item31, .item34{
     background: midnightblue;
 }
-.item5, .item11, .item17, .item23{
+.item5, .item16, .item13, .item23, .item26, .item35{
     background: chartreuse;
 }
-.item62 .item12, .item18, .item24{
+.item62 .item21, .item2, .item28, .item30, .item15{
     background: brown;
 }
 
@@ -47,4 +58,5 @@ line-height: 150px;
 
 .item:hover{
     color:white;
+    box-shadow: none;
 }
