@@ -1,0 +1,10 @@
+.header{
+    text-align:center;
+    font-size: 30px;
+    color: white;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-image: linear-gradient(to right, red , blue);
+    font-family: cursive;
+
+}

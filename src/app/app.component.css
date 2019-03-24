@@ -1,3 +1,4 @@
+
 .header{
     text-align:center;
     font-size: 30px;
@@ -6,8 +7,12 @@
     margin-right: 5%;
     background-image: linear-gradient(to right, red , blue);
     font-family: cursive;
-
 }
+    
+    .main{
+        background-image: url(../assets/mybg.png)
+    }
+
 .container{
     padding:0;
     height:90%;
@@ -48,11 +53,19 @@ background: rgb(212, 199, 14);
     background: midnightblue;
 }
 .item5, .item16, .item13, .item23, .item26, .item35{
-    background: chartreuse;
+    background: rgb(0, 174, 255);
 }
-.item62 .item21, .item2, .item28, .item30, .item15{
-    background: brown;
+.item6 .item21, .item2, .item28, .item30, .item15{
+    background: rgb(194, 57, 57);
 }
+
+.footer{
+    background-color:grey;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+}
+
 
 /* By default font colro transparent, to overide on over of this div */
 
