@@ -1,4 +1,6 @@
 
+
+
 .header{
     text-align:center;
     font-size: 30px;
@@ -8,29 +10,40 @@
     background-image: linear-gradient(to right, red , blue);
     font-family: cursive;
 }
+
+.result_tab{
+    background-color: lightgrey;
+    width: 100px;
+    font-size: 20px;
+    border: 25px solid green;
+    padding-right: 50px;
+    padding-left: 20px;
+    margin: 25px;
+  }
     
     .main{
-        background-image: url(../assets/mybg.png)
+        background-image: url("../assets/bg.png")
+
     }
 
 .container{
-    padding:0;
     height:90%;
-    width:90%;
+    width:70%;
     margin: auto;
     display:grid;
-    grid-template-rows: repeat(6, 1fr);
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     grid-gap: 10px;
     text-align: center;
-vertical-align: middle;
-line-height: 150px;
+    vertical-align: middle;
+    line-height: 150px;
     
 }
 
 
 .item{
     background: red;
+    width:100%;
     color:transparent;
     font-size:20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -40,25 +53,24 @@ line-height: 150px;
 .item >span{
     display:none;
 }
-.item1, .item8,.item17, .item36, .item25, .item24{
-background: rgb(212, 199, 14);
+.item22, .item2, .item14, .item4, .item24{
+background: rgb(3, 59, 112);
 }
-.item18, .item7,.item14, .item10, .item29, .item32{
+.item6, .item20, .item8,.item18{
     background: royalblue;
 }
-.item22, .item9, .item19, .item12, .item4, .item33{
-    background: goldenrod;
+.item11, .item23, .item13, .item3, .item15{
+    background: rgba(2, 151, 52, 0.973);
 }
-.item27, .item20, .item11, .item3, .item31, .item34{
-    background: midnightblue;
+.item16, .item10, .item19, .item7{
+    background: rgb(184, 19, 142);
 }
-.item5, .item16, .item13, .item23, .item26, .item35{
-    background: rgb(0, 174, 255);
+.item21, .item1, .item9, .item5, .item25{
+    background: rgb(235, 47, 14);
 }
-.item6 .item21, .item2, .item28, .item30, .item15{
-    background: rgb(194, 57, 57);
+.item9, .item12{
+    background: rgb(153, 133, 20)
 }
-
 .footer{
     background-color:grey;
     padding: 20px;
